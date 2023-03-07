@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Interfejs (Bartosz Krasoń)</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/icon.ico">
+</head>
+<body>
+    <main id="paragraphs">
+        <p id="paragraphs_1">Tekst do akapitu pierwszego</p>
+        <p id="paragraphs_2">Tekst do akapitu drugiego</p>
+        <p id="paragraphs_3">Tekst do akapitu trzeciego</p>
+        <p id="paragraphs_4">Tekst do akapitu czwartego</p>
+        <p id="paragraphs_5">Tekst do akapitu piątego</p>
+    </main>
+    <section id="panel">
+        <section id="panel_management">
+            <br><br><p>Wybierz ilość akapitów</p>
+            <input type="number" id="paragraphs_number" min="1" max="5" value="1"><br><br>
+            <button id="reset">Resetuj</button>
+        </section>
+        <section id="paragraph_1">
+            <h3>Akapit 1</h3>
+            <textarea id="paragraph_textarea_1" cols="25" rows="3" placeholder="Wpisz tekst"></textarea><br><br>
+            <input type="color" id="paragraph_color_1"> 
+            <p>Wcięcie akapitu: <input type="number" id="paragraph_number_1" min="0" value="0"></p>
+        </section>
+        <section id="paragraph_2">
+            <h3>Akapit 2</h3>
+            <textarea id="paragraph_textarea_2" cols="25" rows="3" placeholder="Wpisz tekst"></textarea><br><br>
+            <input type="color" id="paragraph_color_2">
+            <p>Wcięcie akapitu: <input type="number" id="paragraph_number_2" min="0" value="0"></p>
+        </section>
+        <section id="paragraph_3">
+            <h3>Akapit 3</h3>
+            <textarea id="paragraph_textarea_3" cols="25" rows="3" placeholder="Wpisz tekst"></textarea><br><br>
+            <input type="color" id="paragraph_color_3">
+            <p>Wcięcie akapitu: <input type="number" id="paragraph_number_3" min="0" value="0"></p>
+        </section>
+        <section id="paragraph_4">
+            <h3>Akapit 4</h3>
+            <textarea id="paragraph_textarea_4" cols="25" rows="3" placeholder="Wpisz tekst"></textarea><br><br>
+            <input type="color" id="paragraph_color_4">
+            <p>Wcięcie akapitu: <input type="number" id="paragraph_number_4" min="0" value="0"></p>
+        </section>
+        <section id="paragraph_5">
+            <h3>Akapit 5</h3>
+            <textarea id="paragraph_textarea_5" cols="25" rows="3"></textarea><br><br>
+            <input type="color" id="paragraph_color_5">
+            <p>Wcięcie akapitu: <input type="number" id="paragraph_number_5" min="0" value="0"></p>
+        </section>
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+</html>
